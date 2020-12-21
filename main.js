@@ -10,7 +10,7 @@ translateBtn.addEventListener("click", () => {
     output.innerText = "";
 
     let encodedUri = encodeURI(
-      `https://api.funtranslations.com/tranlate/minion.json?text=${text}`
+      `https://api.funtranslations.com/translate/minion.json?text=${text}`
     );
 
     fetch(encodedUri)
